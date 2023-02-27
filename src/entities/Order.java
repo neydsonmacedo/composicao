@@ -71,7 +71,7 @@ public class Order {
 			sb.append("Quantity: "+i.getQuantity()+", ");
 			sb.append("Subtotal: $"+i.subTotal()+"\n");
 		}
-		sb.append(total());
+		sb.append("Total Price $" + total());
 		return sb.toString();
 	}
 		
